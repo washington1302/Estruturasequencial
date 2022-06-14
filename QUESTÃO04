@@ -1,0 +1,19 @@
+##Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+nome = str(input("Digite seu nome: "))
+
+nota01 = float(input("Digite sua primeira nota: "))
+nota02 = float(input("Digite sua segunda nota: "))
+nota03 = float(input("Digite sua terceira nota: "))
+nota04 = float(input("Digite sua quarta nota: "))
+
+soma = nota01 + nota02 + nota03 + nota04
+
+media = soma / 4
+
+if media < 5.0:
+  print(f'{nome}, sua media final foi {media} e  você foi reprovado(a).')
+elif media >= 5 and media < 7:
+  print(f'{nome}, sua media final foi {media} e você ficou de recuperação.')
+else:
+  print(f'{nome}, sua media final foi {media} e você foi aprovado(a)')
