@@ -1,0 +1,10 @@
+##Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+
+nome = str (input("Qual seu nome? "))
+
+hora = float (input("Quanto você ganha por hora?"))
+qtdhora = float (input("Você trabalhou quantas horas por mês?"))
+
+total = hora * qtdhora
+
+print (f"{nome}, seu salário esse mês é de : {total} reais")
