@@ -1,0 +1,10 @@
+##Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+##C = 5 * ((F-32) / 9)
+
+nome = str (input("Qual seu nome?"))
+
+fah = int (input("Quantos graus em Fahrenheit no momento? "))
+
+c = 5 * ((fah-32) / 9)
+
+print (f"Sua temperatura transformada para graus é:  {c}")
