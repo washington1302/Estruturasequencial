@@ -1,0 +1,16 @@
+##Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+##o produto do dobro do primeiro com metade do segundo .
+##a soma do triplo do primeiro com o terceiro.
+##o terceiro elevado ao cubo.
+
+num1 = float(input("Digite um número inteiro: "))
+num2 = float(input("Difite o segundo número: "))
+num3 = float(input("Digite o número real: "))
+
+dobro01 = num1 * 2 *(num2 * 0.5)
+dobro = (num1 + num3) * 3
+cubo = num3 * num3
+
+print (f"O produto do dobro do primeiro número com a metade do segundo número é: {dobro01}")
+print (f"A soma do triplo do primeiro número com o terceirp é: {dobro}")
+print (f"O terceiro elvado ao cubo é: {cubo}")
