@@ -1,0 +1,9 @@
+##Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+
+nome = str(input("Digite seu nome: "))
+
+c = float(input(f"{nome } Digite a temperatura em Celsius: "))
+
+f = c * 1.8 + 32
+
+print (f"{nome}, sua temperatura em Fahrenheit é:  {f}" )
