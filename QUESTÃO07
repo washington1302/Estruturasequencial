@@ -1,0 +1,6 @@
+##FAÇA UM PROGRAMA QUE CALCULE A ÁREA DE UM QUADRADO, EM SEGUIDA MOSTRE O DOBRO DESSA ÁREA PARA O USUÁRIO.
+
+lado = int(input("Digite o lado do quadrado:"))
+area = lado * lado
+dobro = area * 2
+print (f"A área de um quadrado é:{area}, sendo o dobro dessa área: {dobro}")
