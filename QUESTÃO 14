@@ -1,0 +1,14 @@
+##14. João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz  \n
+##um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo \n
+##excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso Gravar na variável excesso a \n
+##quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa  com as mensagens adequadas.\n
+
+pesoideal = 50
+peso = float(input("Digite quantos quilos João trouxe: "))
+
+if peso > pesoideal:
+   multa = (peso - pesoideal) * 4
+   print(f"Ficou {peso} em excesso, gerando uma multa de : {multa}")
+else :
+   print("Não teve excesso.")
+
